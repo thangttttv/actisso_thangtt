@@ -1,0 +1,12 @@
+machine:
+  php:
+    version: 7.0.7
+  services:
+      - redis
+
+  environment:
+    APP_ENV: testing
+    APP_KEY: base64:4CAI13lpxxUfZ5Ac8Nim4pabbFy5ttuIK9niEJBJO14=
+    DB_HOST: 127.0.0.1
+    DB_DATABASE: circle_test
+    DB_USERNAME: root
